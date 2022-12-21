@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EA Hi-Tech Service</title>
+    <link rel="stylesheet" href="bike.css">
+    <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Playfair+Display&family=Roboto:wght@300&display=swap"
+    rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <section>
+  
+        <div class="container">
+          
+            <div class="path">
+                <h1 class="head"><span id="head1">E</span><span id="head2">A</span> HI-Tech Service </h1>
+            </div>
+            <div class="imges">
+            
+                <li><img src="3.png"  onclick="big('3.png');"></li>
+                <li><img src="2.png"  onclick="big('2.png');"></li>
+                <li><img src="1.png"  onclick="big('1.png');"></li>
+            </div>
+            <div class="big-img">
+                <img src="1.png" class="big1">
+            </div>
+            <div class="content">
+                <p>Worried about your</p><br>
+                <h1>Bike Service</h1><br>
+                <h2><a hef="">Now avail <span id="price1">₹1499 </span><span id="price2">@ ₹999</span></a></h2>
+            
+            </div>
+        </div> 
+    </section>
+    <section class="container2">
+      
+        <div class="show">
+
+            <div class="bike1">
+                <p  id="demo" class="b1" onclick=""> <a href="" >Royal Bike Service<br><span id="PRICE1">₹1499</span> </a></p>
+                <br>
+                <img src="s1.png">
+            </div>
+            <div class="bike2">
+                <p  id="demo"  class="b2" onclick=""> <a href="" >Standard Bike Service<br><span id="PRICE2">₹1099</span> </a></p>
+                <br><br><br>
+                <img src="s2.png">
+            </div>
+        </div>
+    </section>
+  <section class="booking">
+      <form class="FORM" action="">
+        
+        <div class="part1">
+            <input type="text" id="fill" placeholder="Your Brand" required><br>
+            <input type="text" id="fill"  placeholder="Your Model" required><br>
+            <input type="text" id="fill"  placeholder="Add Promo Code" required><br>
+        </div>
+        <div class="part2">
+            <input type="text" id="fill"  placeholder="USERNAME" required><br>
+            <input type="text" id="fill"  placeholder="10 Digit Mobile Number" required><br>
+            <input type="email" id="fill"  placeholder="Email Id" required><br>
+            </div>
+            <button  class="submit" onclick=""><a href="">BOOK NOW</a></button>
+      </form>
+      </section>
+      <div class="bottom">
+        <div class="set 1">
+            <h1 class="head2"><span id="head1">E</span><span id="head2">A</span> HI-Tech Service </h1>
+        </div>
+        <div class="set2">
+            <h3>Follow US</h3>
+            <div class="social">
+                <a href="" class="fa fa-linkedin"style="font-size:30px"></a>
+                <a href=""class="fa fa-twitter" style="font-size:30px"></a>
+                <a href="" class="fa fa-facebook-f" style="font-size:30px" ></a>
+                <a href="" class="fa fa-youtube" style="font-size:30px"></a>
+            </div>
+        </div>
+        <div class="set3">
+            <h4>Contact US</h3>
+            <div class="cont">
+                <p>Call :+91 9876543210 </p>
+                <p>Email :eahitechservice@gmail.com</p>
+            </div>
+
+        </div>
+
+      </div>
+</body>
+
+<script>
+    function big(img){
+        document.querySelector('.big1').src= img;
+    }
+</script>
+</html>
